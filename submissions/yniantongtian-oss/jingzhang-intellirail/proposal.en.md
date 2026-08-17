@@ -9,7 +9,7 @@ license: "COMMUNITY-DISPLAY-ONLY"
 summary: "Using the Jing-Zhang railway heritage public realm as the spine, the proposal organizes the three hubs and two wings into a verifiable, human-takeover-ready and reversible urban AI proving belt; every scenario delivers a spatial carrier, an ordinary-service path, a measurement method and a public receipt."
 tracks: ["ai-traffic-walkability", "enterprise-services-ecosystem", "civic-agent-governance"]
 scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safety-operations-review"]
-iteration: "v1.13"
+iteration: "v1.15"
 ---
 
 # Jing-Zhang Intelli-Rail: Centennial Jing-Zhang AI Innovation Belt Urban Design
@@ -25,6 +25,14 @@ Jing-Zhang Intelli-Rail translates the century-old railway logic of “line–st
 A reviewer can read the project through four layers. The **spatial layer** is one spine, three hubs, two wings and multiple points: a continuous heritage walking-and-cycling spine, three hero sequences—Zhongzhiyuan “river–court–gallery,” AI Origin “campus–street–hall,” and Dazhongsi “station–hall–street–green”—two transverse service wings, and twelve removable scenario nodes. The **service layer** requires every AI plug-in to preserve an ordinary-service path, so streets, signs, counters, exhibitions and accessible movement still work after shutdown. The **verification layer** registers measurement, comparison, human takeover and stop conditions for all twelve scenarios. The **operations layer** returns public questions through “sandbox–evidence–review–expand/exit” into the annual public-value audit. [source:AGENT-TASKBOOK]
 
 Each key area has one spatial promise: Zhongzhiyuan makes trustworthy technology **measurable**, AI Origin lets innovation **move out of campus**, and Dazhongsi lets intelligent services **enter the urban ground floor and fall back to ordinary service**. These three statements constrain the spatial design, scenarios, projects and measurement plan that follow. [depth:three_key_area_detailed_design]
+
+The three hubs use one “verb–space–evidence–fallback” delivery grammar without copying one block type. It gives brand identity and implementation judgment the same shortest expression:
+
+| Area | Core verb | Minimum visible delivery | Evidence required before expansion | City state after AI failure |
+| --- | --- | --- | --- | --- |
+| Zhongzhiyuan | **VERIFY** | Continuous riverfront–testing court–standards gallery sequence | Red-team results, human-takeover records, same-task energy | Ordinary garden district and continuous walking line |
+| AI Origin | **TRANSFER** | Continuous campus interface–transfer street–open hall sequence | Before/after service comparison, rights review, user retest | Ordinary public hall, human advisers and shared workshop |
+| Dazhongsi | **USE** | Continuous station exit–reception hall–experience street–public green sequence | Peak/off-peak walking audit, shutdown drill, complaint record | Ordinary commercial service, human counters and public green |
 
 ## Design Basis and Source List
 
@@ -149,7 +157,16 @@ Public space follows “quiet everyday use first, graded entry for events.” Th
 
 Ten renewal projects remain the implementation skeleton: JZ-01 heritage-spine continuity, JZ-02 Fifth Ring walking/cycling stitching, JZ-03 Qinghe innovation waterfront, JZ-04 Origin technology-transfer street, JZ-05 Dazhongsi four-quadrant connection, JZ-06 three-hub shared service stations, JZ-07 low-carbon compute stops, JZ-08 all-age accessible loop, JZ-09 open scenario-node network, and JZ-10 Centennial Jing-Zhang Digital Archive. [data:geometry/phasing.geojson#PHASE-001]
 
-Implementation uses four release gates. **G0 Data Gate:** missing boundary, ownership, heritage or engineering data limits work to research and reversible prototypes. **G1 Ordinary-Service Gate:** basic service still works when AI is off. **G2 Safety and Inclusion Gate:** human takeover, accessibility, privacy and appeals pass review. **G3 Evidence Gate:** baseline, comparison, cost/energy and public-benefit evidence are sufficient for expansion. If any gate is not passed, the phase remains HOLD and does not advance merely because time has elapsed. [depth:phasing_implementation]
+Implementation uses four release gates. If any gate is not passed, the phase remains HOLD and does not advance merely because calendar time has elapsed; “pass” must correspond to a set of deliverable evidence and an explicit review responsibility, not a principle statement.
+
+| Release gate | Evidence that must exist before expansion | Suggested review role | Action if not passed |
+| --- | --- | --- | --- |
+| G0 Data Gate | Register of boundary/ownership/heritage/engineering gaps, plus trigger conditions for replacing provisional constraints with formal data | Planning, heritage and relevant engineering professionals | Research, tabletop verification and reversible prototypes only; no irreversible engineering |
+| G1 Ordinary-Service Gate | AI-off-day record, ordinary-service-path map, checklist for offline counters/paper signs/device-free movement | Scenario operator + Community Observatory | Restore ordinary service first; AI plug-ins unable to run independently do not launch |
+| G2 Safety and Inclusion Gate | Human-takeover drill, accessibility co-test, Civic Data Placard, privacy/appeal check | Professional Committee + affected users | Pause, repair and co-test again; unresolved high-risk issues block expansion |
+| G3 Evidence Gate | Baseline, comparison, takeover/complaint record, same-task energy/resource record, public-benefit statement | Independent Audit + Joint Council | Hold scale, reduce, or exit; “a pilot is running” does not substitute for outcome evidence |
+
+Together the four gates establish the order: data permits a trial, ordinary service provides the floor, safety and inclusion make takeover possible, and sufficient evidence is required before expansion. [depth:phasing_implementation]
 
 The start-up “six things in one hundred days” remains: spine-break register, first Origin transfer-street prototype, shared-service counter, accessible co-test route, first S02 red-team day, and first Civic Data Placard specification. Months 0–18 focus on measurement and reversible trials; 18–48 months enter adaptive reuse and transport renewal; only after 48 months does the proposal discuss networked governance and projects requiring stronger formal conditions.
 
