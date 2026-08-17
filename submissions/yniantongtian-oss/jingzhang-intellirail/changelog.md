@@ -1,5 +1,19 @@
 # 方案迭代记录 / Jing-Zhang Intelli-Rail Changelog
 
+## v1.15 - 2026-08-17
+
+- 将 G0—G3 四道实施放行门从原则性文字升级为“必须证据—建议复核角色—未通过动作”的执行合同：资料门对应缺口登记与替换触发条件，普通服务门对应 AI 关闭日和非数字路径，安全包容门对应接管/无障碍/公共数据卡，证据门对应基线/对照/投诉接管/资源与公共收益证据。
+  Upgraded G0–G3 from principle statements into executable evidence contracts with required artifacts, suggested review roles, and explicit failure actions: data-gap registers and replacement triggers for G0, AI-off/ordinary-service evidence for G1, takeover/accessibility/Civic Data Placard evidence for G2, and baseline/comparison/complaint-takeover/resource/public-benefit evidence for G3.
+- 明确阶段不因日历时间自动推进，“试点已运行”不能替代成效证据；未过门时对应研究/补服务/暂停复测/维持规模或退出四类动作。
+  Clarified that phases do not advance automatically with calendar time and that a running pilot is not outcome evidence; failure now maps to research-only, restore ordinary service, pause/retest, or hold/reduce/exit actions.
+
+## v1.14 - 2026-08-17
+
+- 在首屏增加三核“动词—空间—证据—回退”交付语法：众智园=验（VERIFY）、AI原点=转（TRANSFER）、大钟寺=用（USE）；每核同时给出最小可见空间交付、扩展前证据和 AI 失效后的普通城市状态。
+  Added a three-hub “verb–space–evidence–fallback” grammar to the first read: Zhongzhiyuan=VERIFY, AI Origin=TRANSFER, Dazhongsi=USE; each hub now states its minimum visible spatial delivery, pre-expansion evidence, and ordinary city state after AI failure.
+- 该轮不新增品牌口号堆叠，而是让品牌辨识、重点区空间明确性和可转化实施判断共用同一套三核动作语法。
+  Rather than adding more slogans, this pass makes brand identity, key-area spatial clarity, and transferability share the same three-hub action grammar.
+
 ## v1.13 - 2026-08-17
 
 - 针对 v1.12 Review Agent 81/100 的主要提分空间，新增“一页判读”，把空间、普通服务、验证和运营四层压缩成首屏可读结构；三处重点区分别形成“河—庭—廊”“校—街—厅”“站—厅—街—绿”英雄空间序列。
