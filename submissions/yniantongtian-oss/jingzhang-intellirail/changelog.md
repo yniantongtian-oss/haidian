@@ -1,5 +1,18 @@
 # 方案迭代记录 / Jing-Zhang Intelli-Rail Changelog
 
+## v1.13 - 2026-08-17
+
+- 针对 v1.12 Review Agent 81/100 的主要提分空间，新增“一页判读”，把空间、普通服务、验证和运营四层压缩成首屏可读结构；三处重点区分别形成“河—庭—廊”“校—街—厅”“站—厅—街—绿”英雄空间序列。
+  Targeting the main headroom after the v1.12 Review Agent score of 81/100, added a one-page first read that compresses space, ordinary service, verification, and operations into a reviewer-facing structure; the three key areas now use the hero sequences river–court–gallery, campus–street–hall, and station–hall–street–green.
+- 十二个 AI+ 场景全部补齐“测量与对照—人工接管/普通路径—阶段门与停止条件”，把原来的指标说明升级成可执行验证合同；三类测试沙盒分别对应接管/失效、数字与非数字等价、同任务能耗对照。
+  All twelve AI+ scenarios now carry measurement/comparison, human-takeover/ordinary-path, and stage-gate/stop-condition contracts; the three testbeds explicitly verify takeover/failure, digital–non-digital equivalence, and same-task energy performance.
+- 三处重点区增加“永久城市骨架 + 可撤 AI 侧带”规则和 AI 关闭日演练，确保 AI 停机后通行、导视、柜台、展陈和无障碍服务仍可独立工作。
+  Added a permanent-urban-base plus removable-AI-sideband rule and AI-off drills in all three key areas so movement, signs, counters, interpretation, and accessibility remain functional after shutdown.
+- 新增 G0—G3 四道实施放行门与 B01—B05 第一年基线测量方案；补充停车、区域协同接口、国际传播固定文案、公共空间组件库和从公开问题到验证/转化/退出的长期运营路径。
+  Added G0–G3 implementation release gates and B01–B05 year-one baseline measurement plans; also strengthened parking, regional-synergy interfaces, international communication copy, the public-space component library, and the long-term public-problem-to-verification/conversion/exit pathway.
+- 中英文正文保持同构，正式边界、控规和工程数据缺口状态不变；本轮不修改九个几何图层、既有空间指标和五张核心图。
+  Chinese and English proposals remain structurally equivalent; provisional geometry and missing formal control/engineering data remain unchanged. This round does not alter the nine geometry layers, existing spatial metrics, or the five core figures.
+
 ## v1.12 - 2026-08-17
 
 - 冻结版：v1.1—v1.11 的全部修改经四门自检、双语对齐审计与 manifest 哈希核验后定稿；本版不新增内容，仅作最终校验与提交。
