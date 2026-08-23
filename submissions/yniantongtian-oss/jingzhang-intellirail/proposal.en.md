@@ -9,7 +9,7 @@ license: "COMMUNITY-DISPLAY-ONLY"
 summary: "Using the Jing-Zhang railway heritage public realm as the spine, the proposal organizes the three hubs and two wings into a verifiable, human-takeover-ready and reversible urban AI proving belt; every scenario delivers a spatial carrier, an ordinary-service path, a measurement method and a public receipt."
 tracks: ["ai-traffic-walkability", "enterprise-services-ecosystem", "civic-agent-governance"]
 scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safety-operations-review"]
-iteration: "v1.16"
+iteration: "v1.17"
 ---
 
 # Jing-Zhang Intelli-Rail: Centennial Jing-Zhang AI Innovation Belt Urban Design
@@ -57,6 +57,18 @@ The three scope levels follow a “strategy–structure–project–feedback” 
 The overall structure remains “one spine, three hubs, two wings and multiple points.” The heritage spine preserves continuous publicness; Zhongzhiyuan carries full-stack autonomy, standards and safety verification; AI Origin carries university technology transfer, open-source collaboration and talent services; Dazhongsi carries intelligent terminals, content consumption, enterprise services and international release. The Zhongguancun Technology Service Wing provides transverse interfaces for intellectual property, capital and professional services, while the Xiaoyue River Scenario Enablement Wing carries low-risk urban trials and everyday community scenarios. [data:geometry/roads.geojson#ROAD-001] [depth:overall_spatial_structure]
 
 Regional synergy is registered as interfaces only, not fabricated commitments: Beiwei Community focuses on talent and daily-life scenario exchange; Future Science City on research-facility and verification-method interoperability; Huairou Science City on scientific facilities and public-science interfaces; Beijing Economic-Technological Development Area on industrialization and manufacturing verification; and Beijing–Tianjin–Hebei on cross-regional events, supply chains and standards exchange. Every interface requires later confirmation by responsible parties and currently expresses only a transferable design relationship. [source:AGENT-TASKBOOK]
+
+### Five-Interface Coordination Responsibility Matrix
+
+Regional coordination is further translated into five “interface contracts.” All roles below are **suggested responsibility types**, not claims that any organization has committed. Each interface combines a spatial carrier, release evidence and an exit condition so that implementation teams can audit the regional narrative.
+
+| Interface | Spatial carrier | Suggested initiating/executing roles | Suggested review roles | Release evidence | HOLD / exit condition |
+| --- | --- | --- | --- | --- | --- |
+| I1 Knowledge → Industry | AI Origin transfer street–Zhongzhiyuan testing court | University/open-source/enterprise project teams | IP, legal and Professional Committee | Rights chain, reproducible demo, human-service baseline | Unclear rights, data overreach, or missing ordinary service |
+| I2 Technology → City | Zhongzhiyuan sandbox–Dazhongsi experience street | Scenario operations and product teams | Safety professionals + user representatives | Red-team results, shutdown drill, complaints and correction records | Failed takeover, repeated high-risk complaints, or unresolved misinformation |
+| I3 Station-City → Heritage Spine | Rail exit–transverse stitching–heritage walking line | Transport/park operations teams | Transport, fire and accessibility professionals | Peak/off-peak audit, co-tested route, emergency-access check | New safety break, accessibility interruption, or blocked emergency access |
+| I4 Blue-Green → Community | Qinghe/Xiaoyue River–community public space | Park/community operations teams | Water/ecology professionals + Community Observatory | Post-rain recovery, thermal comfort, non-commercial open hours | Flood/ecology deterioration or persistent commercial displacement |
+| I5 Events → Global Network | Reception hall–honor display–Global AI Week route | Event/open-source community operations | Rights, accessibility and public-order review | Bilingual access, asset-rights ledger, restoration record | Unclear rights, noise/movement overrun, or failed restoration |
 
 ## Coordinated Research Area: Industry and Future City Research
 
@@ -129,6 +141,12 @@ The public-space component library contains six transferable parts: double-track
 
 Three original mechanisms remain consistent across the project. The **Scenario Exit Valve** executes “threshold–pause–review–exit”; the **Civic Data Placard** publishes collection, purpose, retention and appeal routes; the **Double-Track Identity** carries heritage engineering rationality and open ecology across physical and digital touchpoints. Together they produce an urban-AI experience that is recognizable, auditable and reversible.
 
+### Intelli-Rail Clearance Ticket: Turning VERIFY–TRANSFER–USE into an Auditable State Machine
+
+v1.17 adds the **Intelli-Rail Clearance Ticket**. It is not an administrative approval and does not replace any statutory permit. It is a public audit receipt that must be produced before a scenario moves from VERIFY to TRANSFER and then to USE. Every ticket carries seven fixed fields: `ticket_id`, place/scenario, triggering gate, evidence references, human review role, validity/retest trigger, and ordinary-service fallback/exit action. If evidence expires, the scenario changes materially, or any G1–G3 gate fails, the ticket returns to HOLD. An AI plug-in without a valid ticket can remain only in prototype or contained-verification status.
+
+The ticket binds urban space, AI operation and governance responsibility into one state machine: **VERIFY** proves that the system can be measured and stopped; **TRANSFER** proves that rights and service responsibility can be handed over; **USE** proves that ordinary service remains available in a real public setting and that retesting continues. For high-impact scenarios, the release receipt includes at least one professional review role and one affected-user/public-interest review role so the technology provider cannot self-certify alone.
+
 ## Land Use, Building Scale, and Retain-Renovate-Demolish Strategy
 
 Conceptual land use completely covers the provisional overall design area; classification expresses functional relationships and has no statutory approval effect. [standard:MNR-LAND-USE-CLASSIFICATION-GUIDE] The current provisional area is approximately 11.41 km² [metric:site_area_sqm], green ratio approximately 12.34% [metric:green_ratio], public-space ratio approximately 7.33% [metric:public_space_ratio], and conceptual building footprint approximately 310,800 m² [metric:building_footprint_area_sqm]. Exact decimals serve package consistency only and do not imply survey precision.
@@ -151,6 +169,10 @@ The blue-green system connects Qinghe, Xiaoyue River, railway heritage, campus e
 
 The honor-display system follows “traceable contribution, failed trials also retained.” Open-source maintenance, public-problem solving, accessibility improvements and trustworthy verification can enter the annual record; corporate sponsorship does not purchase exclusive naming or rights to public data. Cultural narrative braids Jing-Zhang engineering history, Zhongguancun research/entrepreneurship culture and open-source/responsible-innovation culture into three timelines, with sources and permissions registered for historical and oral material.
 
+### Three-Tier Honor Display: Separating Contribution, Review, and Permanent Commemoration
+
+The honor system has three levels so one event exposure is never presented as permanent endorsement. **L1 Contribution Trace** is the updateable everyday layer recording open-source maintenance, accessibility fixes, public-problem solving, failed trials and corrections. **L2 Annual Milestone Register** includes only annual outcomes that pass the winter public-value audit, rights review and contributor confirmation. **L3 Permanent-Commemoration Candidate** is only a candidate pool for future inscriptions or permanent nodes and remains subject to organizer selection, rights clearance, professional design and real-world approval; this proposal guarantees no person or project a permanent display. All three levels preserve source, version, withdrawal and correction records.
+
 Public space follows “quiet everyday use first, graded entry for events.” The everyday layer secures shade, seating, drinking water, toilets, sport and commuting; the community layer supports classes, markets and small performances; the city layer supports developer festivals and international events. Event growth must be matched by stronger noise, safety, traffic, accessibility and restoration requirements. [standard:MOHURD-URBAN-DESIGN-MEASURES]
 
 ## Renewal Projects, Implementation Policy, and Phasing
@@ -171,6 +193,19 @@ Together the four gates establish the order: data permits a trial, ordinary serv
 The start-up “six things in one hundred days” remains: spine-break register, first Origin transfer-street prototype, shared-service counter, accessible co-test route, first S02 red-team day, and first Civic Data Placard specification. Months 0–18 focus on measurement and reversible trials; 18–48 months enter adaptive reuse and transport renewal; only after 48 months does the proposal discuss networked governance and projects requiring stronger formal conditions.
 
 Long-term operations use a four-layer structure: Joint Council–Professional Committee–Community Observatory–Independent Audit. The annual rhythm is spring open-source maintenance week, summer sandbox open day, autumn Global AI Week, and winter public-value audit; every event must produce a problem list, trial record, public result, and next-round expand/exit decision. The conversion path is fixed as **public problem → open-source/enterprise response → sandbox verification → professional and community review → procurement/cooperation recommendation or exit → public postmortem**. Procurement, investment attraction, funding and cooperation remain subject to future lawful confirmation by responsible parties. [source:AGENT-TASKBOOK]
+
+### Q1–Q4 Controlled Conversion Chain and Capital Irreversibility
+
+Annual operations are not merely an event calendar. They advance through four stoppable quarterly states:
+
+| Quarter state | Core action | Evidence that must remain | If not passed |
+| --- | --- | --- | --- |
+| Q1 PROBLEM | Public problem call, field baseline, rights/data precheck | Problem card, B01–B05 baseline plan, affected-group list | Problem not measurable or rights boundary unclear → do not initiate |
+| Q2 PROTOTYPE | Reversible prototype, ordinary service in parallel, first red-team/accessibility co-test | Prototype record, G1/G2 check, first Intelli-Rail Clearance Ticket | Ordinary path fails or takeover fails → return to Q1 |
+| Q3 CONTROLLED PILOT | Small controlled pilot, comparative measurement, public correction | Baseline/control, complaints/takeovers, energy/resource, change record | Repeated high-risk issue or no evidence of public benefit → reduce/exit |
+| Q4 PUBLIC AUDIT | Public-value audit, rights review, expand/exit decision | Annual audit, L2 candidates, next-year problem list | Evidence insufficient → no cross-site replication |
+
+To avoid fabricating costs merely to appear “implementable,” the ten projects are first classified by **capital irreversibility** rather than unsupported investment amounts. C0 covers research/operations/tabletop verification; C1 covers demountable components and reversible interiors; C2 covers adaptive reuse requiring ownership/fire and other prerequisite checks; C3 covers bridge/tunnel, station-city and municipal works requiring formal feasibility studies and approvals. Only C0/C1 may enter early prototypes while data remain incomplete; C2/C3 remain constrained by G0 and the relevant professional review.
 
 ## Metrics, Area Recalculation, and Compliance Matrix
 
