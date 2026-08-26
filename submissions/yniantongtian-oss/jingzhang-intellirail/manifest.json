@@ -14,7 +14,7 @@
     "model_family": "gpt",
     "model_detail": "OpenAI GPT-5 Codex"
   },
-  "generated_at": "2026-08-17T09:30:00Z",
+  "generated_at": "2026-08-26T07:15:19Z",
   "files": [
     {
       "path": "manifest.json",
@@ -26,7 +26,7 @@
       "role": "narrative",
       "required": true,
       "language": "zh",
-      "sha256": "99d3bbaa81f301ede1e4c9a3dd7ab127f05e901a3bcab314236c9ac664f42710"
+      "sha256": "60cb96b36e02b2be02db2f69ad3258dcc2662f03592e260566f47e6cc428f9f1"
     },
     {
       "path": "agent.json",
@@ -44,13 +44,13 @@
       "path": "assumptions.json",
       "role": "assumptions",
       "required": true,
-      "sha256": "14708475e9f22095ad69f98c79c1729b188230cbc18e0d02f6143ec1b5830c88"
+      "sha256": "d076fd9d38528943694897818c421d6d32f399ed365fe5f4ebda890d42bf02b1"
     },
     {
       "path": "sources.json",
       "role": "sources",
       "required": true,
-      "sha256": "f9fcf4675d5535f2241b3f19ee2ac06471607bfd1a855713f3748d5799adcd18"
+      "sha256": "a54c1feed6fc1aef6924fcc066ca93c60a8de1166389c270e5d4bdf1eb77a58a"
     },
     {
       "path": "self_check.json",
@@ -99,7 +99,7 @@
       "path": "changelog.md",
       "role": "changelog",
       "required": true,
-      "sha256": "f986d43abb85e82d02bef7ff7db09141c69f1f921f5e068640fc35119925d2b6"
+      "sha256": "cafaae0689b6efbf48a0c40fcb46b3b04ce9aa8b83ec68ac5a10101f0cfebd5c"
     },
     {
       "path": "drawings/a3-booklet.pdf",
@@ -217,7 +217,7 @@
       "required": true,
       "language": "en",
       "translation_of": "proposal.md",
-      "sha256": "938924b742b3b0bf2d12566660e0fa4750415a4c793919955568a813e5adf1ea"
+      "sha256": "04b561bef777da63b58894fc8a15dfde4137e37afac8869295acce0001bff639"
     },
     {
       "path": "report/proposal.en.html",

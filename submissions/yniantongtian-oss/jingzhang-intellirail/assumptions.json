@@ -32,6 +32,18 @@
       "impact": "Implementation proceeds only through future agreements, public review, and accountable procurement."
     },
     {
+      "id": "A-RESOURCE-001",
+      "status": "procurement_preparation_only",
+      "statement": "R0/R1/R2 are implementation resource classes, not monetary budgets, quotations, approved investment amounts, or engineering estimates. R0 means document/survey/event work; R1 means light equipment or reversible interior work; R2 means localized street or public-interface modification.",
+      "impact": "No R2 action advances until ownership, transport, fire, engineering and other applicable formal conditions are checked. Monetary commitments remain unknown until auditable procurement evidence is formed from multiple quotations under the future responsible entity's rules."
+    },
+    {
+      "id": "A-PILOT-HANDOVER-001",
+      "status": "evidence_contract",
+      "statement": "The first-pilot handover fields define a record format only; real baseline values, performance results, takeover durations, complaints and gate decisions remain null until an authorized field trial produces traceable evidence.",
+      "impact": "Synthetic or tabletop values may test the format but may not replace missing field evidence or be represented as implementation outcomes."
+    },
+    {
       "id": "A-CASES-001",
       "status": "background_reference",
       "statement": "Seven international cases are read from institutional primary sources for transferable mechanisms.",

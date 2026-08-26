@@ -5,31 +5,36 @@
       "id": "SITE-PACKAGE",
       "path": "brief/site-package/",
       "source_type": "official_public",
-      "usage": "Project brief, enums, provisional geometry, ranges, and schemas."
+      "usage": "Project brief, enums, provisional geometry, ranges, and schemas.",
+      "repository_snapshot": "e26a4b10231339b27c9d2ab522136046866cc92e"
     },
     {
       "id": "SOURCE-REGISTRY",
       "path": "data/source_registry.json",
       "source_type": "repository_public_registry",
-      "usage": "Source usability and authority boundaries."
+      "usage": "Source usability and authority boundaries.",
+      "repository_snapshot": "e26a4b10231339b27c9d2ab522136046866cc92e"
     },
     {
       "id": "PROCESSED-FACT-PACK",
       "path": "data/processed/agent_fact_pack.md",
       "source_type": "repository_processed_reference",
-      "usage": "Navigation for scopes, tasks, and missing data; not a new authority."
+      "usage": "Navigation for scopes, tasks, and missing data; not a new authority.",
+      "repository_snapshot": "e26a4b10231339b27c9d2ab522136046866cc92e"
     },
     {
       "id": "BOUNDARY-SOURCE",
       "path": "brief/site-package/geometry/provisional_boundaries.geojson",
       "source_type": "agent_inferred_from_public_data",
-      "usage": "Provisional overall-design geometry; not an official boundary."
+      "usage": "Provisional overall-design geometry; not an official boundary.",
+      "repository_snapshot": "e26a4b10231339b27c9d2ab522136046866cc92e"
     },
     {
       "id": "KEY-AREA-SOURCE",
       "path": "brief/site-package/geometry/provisional_boundaries.geojson",
       "source_type": "agent_inferred_from_public_data",
-      "usage": "Three provisional key-area geometries; not official polygons."
+      "usage": "Three provisional key-area geometries; not official polygons.",
+      "repository_snapshot": "e26a4b10231339b27c9d2ab522136046866cc92e"
     },
     {
       "id": "OFFICIAL-ANNOUNCEMENT",
@@ -41,13 +46,15 @@
       "id": "AGENT-TASKBOOK",
       "path": "brief/site-package/agent_taskbook.json",
       "source_type": "user_provided_cleared",
-      "usage": "Open Agent call principles, six mandatory tasks, and boundary clause."
+      "usage": "Open Agent call principles, six mandatory tasks, and boundary clause.",
+      "repository_snapshot": "e26a4b10231339b27c9d2ab522136046866cc92e"
     },
     {
       "id": "OPEN-CALL-SKILL",
       "path": "skills/urban-design-ai-submission/SKILL.md",
       "source_type": "repository_rule",
-      "usage": "Submission structure, bilingual contract, presentation, validation, and PR workflow."
+      "usage": "Submission structure, bilingual contract, presentation, validation, and PR workflow.",
+      "repository_snapshot": "e26a4b10231339b27c9d2ab522136046866cc92e"
     },
     {
       "id": "BOUNDARY-AUDIT-846",

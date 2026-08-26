@@ -9,7 +9,7 @@ license: "COMMUNITY-DISPLAY-ONLY"
 summary: "Using the Jing-Zhang railway heritage public realm as the spine, the proposal organizes the three hubs and two wings into a verifiable, human-takeover-ready and reversible urban AI proving belt; every scenario delivers a spatial carrier, an ordinary-service path, a measurement method and a public receipt."
 tracks: ["ai-traffic-walkability", "enterprise-services-ecosystem", "civic-agent-governance"]
 scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safety-operations-review"]
-iteration: "v1.16"
+iteration: "v1.17"
 ---
 
 # Jing-Zhang Intelli-Rail: Centennial Jing-Zhang AI Innovation Belt Urban Design
@@ -129,6 +129,17 @@ The public-space component library contains six transferable parts: double-track
 
 Three original mechanisms remain consistent across the project. The **Scenario Exit Valve** executes “threshold–pause–review–exit”; the **Civic Data Placard** publishes collection, purpose, retention and appeal routes; the **Double-Track Identity** carries heritage engineering rationality and open ecology across physical and digital touchpoints. Together they produce an urban-AI experience that is recognizable, auditable and reversible.
 
+### Originality Delta: From an “AI District” to an Auditable Urban Plug-In System
+
+Originality is not measured by deploying more AI. The proposal’s increment is whether a system can be **falsified, taken over by people, and fully removed**. The comparison below positions method differences only; it makes no world-first claim and does not treat case-study experience as local fact.
+
+| Common approach | Intelli-Rail increment | Falsifiable test | Package evidence |
+| --- | --- | --- | --- |
+| AI scenarios delivered as feature lists | Every scenario binds an ordinary service, human takeover and an exit valve | If ordinary service cannot work independently on an AI-off day, the scenario fails | S01–S12 verification contracts + G1/G2 |
+| Data governance ends with a privacy statement | Every public AI touchpoint submits a Civic Data Placard before operation | If purpose, retention, appeal or deletion cannot be verified, the scenario remains HOLD | Civic Data Placard + G2 |
+| Pilots scale by elapsed time or visibility | Expansion requires G3 evidence: baseline, comparison, failure record and public benefit | “The pilot is running” without comparison evidence cannot advance | G3 + B01–B05 |
+| AI infrastructure is treated as permanent urban base | Permanent urban base is separated from a removable AI sideband | If movement, signs, counters or accessibility fail after equipment removal, the design falls back | Three-hub permanent base + AI-off day |
+
 ## Land Use, Building Scale, and Retain-Renovate-Demolish Strategy
 
 Conceptual land use completely covers the provisional overall design area; classification expresses functional relationships and has no statutory approval effect. [standard:MNR-LAND-USE-CLASSIFICATION-GUIDE] The current provisional area is approximately 11.41 km² [metric:site_area_sqm], green ratio approximately 12.34% [metric:green_ratio], public-space ratio approximately 7.33% [metric:public_space_ratio], and conceptual building footprint approximately 310,800 m² [metric:building_footprint_area_sqm]. Exact decimals serve package consistency only and do not imply survey precision.
@@ -167,6 +178,23 @@ Implementation uses four release gates. If any gate is not passed, the phase rem
 | G3 Evidence Gate | Baseline, comparison, takeover/complaint record, same-task energy/resource record, public-benefit statement | Independent Audit + Joint Council | Hold scale, reduce, or exit; “a pilot is running” does not substitute for outcome evidence |
 
 Together the four gates establish the order: data permits a trial, ordinary service provides the floor, safety and inclusion make takeover possible, and sufficient evidence is required before expansion. [depth:phasing_implementation]
+
+### Six Hundred-Day Deliverables: Scale–Resource–Evidence Contract
+
+To avoid project names without implementation magnitude, all six start-up deliverables now state the **minimum scale that can honestly be committed today** and a **resource class**. Resource classes support procurement preparation only; they are not budgets or engineering cost estimates: R0=document/survey/event class, R1=light equipment or reversible interior-work class, R2=localized street/public-interface modification class. Any R2 action requires formal ownership, transport, fire and engineering conditions before quotation, with auditable procurement evidence based on multiple quotations. [assumption:A-RESOURCE-001]
+
+| Hundred-day delivery | Minimum scale boundary | Resource class | First release gate | Verifiable day-100 receipt | Failure action |
+| --- | --- | --- | --- | --- | --- |
+| Spine-break register | First full-line survey of the heritage spine; no new work promised | R0 | G0 | Geolocated break register with type/risk grade and retest rule | Preserve the gap if evidence is missing; do not fill it with inferred values |
+| First Origin transfer-street prototype | One reversible street/ground-floor interface segment; no statutory length asserted | R1→R2 | G0/G1 | Ordinary-service path, removable-component list, user-retest record | Withdraw prototype if the ordinary path fails |
+| Shared-service counter | One pilot counter testing human and digital dual paths | R1 | G1 | AI-off-day record and paper/human service checklist | No expansion if the human path cannot work independently |
+| Accessible co-test route | One continuous co-test route; provisional geometry is not used to claim statutory compliance | R0→R1 | G1/G2 | Inaccessible points, assistance points, retest results and remediation owner | Corresponding scenario remains HOLD if a new inaccessible point appears |
+| First S02 red-team day | One contained/isolated rehearsal with no live public-operation connection | R0 | G2 | Version, test set, takeover, failure and stop records | Isolation/takeover failure terminates the test and triggers review |
+| First Civic Data Placard specification | One common field set covering scenarios preparing to enter pilot | R0 | G2 | Collection, purpose, retention, appeal, deletion and accountable-role register | Any unverifiable required field blocks launch |
+
+### First-Pilot Data Handover Format
+
+When a concept verification moves into professional review, every pilot must hand over the same minimum data package so a later team receives measurement logic rather than only a conclusion. Required fields are: `scenario_id`, `site_status`, `baseline_metric`, `comparison_method`, `unit`, `sampling_window`, `missing_data_rule`, `human_takeover_log`, `complaint_log`, `review_role`, `evidence_uri`, `gate_decision`, and `stop_reason`. Real values remain null before authorization and field measurement; simulated values may not substitute for missing field evidence. A pilot can enter G3 judgment only when **raw records are traceable, the ordinary path has a comparison, failed runs are retained, and the review role is named**. [depth:phasing_implementation]
 
 The start-up “six things in one hundred days” remains: spine-break register, first Origin transfer-street prototype, shared-service counter, accessible co-test route, first S02 red-team day, and first Civic Data Placard specification. Months 0–18 focus on measurement and reversible trials; 18–48 months enter adaptive reuse and transport renewal; only after 48 months does the proposal discuss networked governance and projects requiring stronger formal conditions.
 

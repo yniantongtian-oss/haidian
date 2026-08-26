@@ -1,5 +1,16 @@
 # 方案迭代记录 / Jing-Zhang Intelli-Rail Changelog
 
+## v1.17 - 2026-08-26
+
+- 将既有三个原创机制进一步写成“常见做法—本方案增量—可证伪测试—包内证据”的对照表，明确原创性来自可接管、可审计、可退出的城市插件系统，不使用“世界首创”等不可核验绝对化表述。
+  Reframed the three existing original mechanisms as a common-practice / proposal-increment / falsifiable-test / package-evidence comparison, locating originality in a takeover-ready, auditable and reversible urban plug-in system without unverifiable world-first claims.
+- 将启动期“百日六件事”升级为“最小规模—资源类别—首道放行门—百日回执—失败动作”实施合同；R0/R1/R2 只表示采购准备的资源类别，不是金额预算或工程概算，R2 在正式条件核实后再进入多方询价。
+  Upgraded the start-up six deliverables into an implementation contract covering minimum scale, resource class, first release gate, day-100 receipt and failure action. R0/R1/R2 are procurement-preparation classes rather than monetary budgets or engineering estimates, and R2 requires formal-condition checks before multiple quotations.
+- 新增首轮试点 13 字段数据交接格式，要求原始记录可追溯、普通路径有对照、失败记录保留、复核角色具名后才进入 G3；真实值在授权和实测前保持空值，不用模拟值替代现场证据。
+  Added a 13-field first-pilot data handover format. Entry to G3 now requires traceable raw records, an ordinary-path comparison, retained failures and a named review role; real values remain null before authorization and field measurement, and simulations cannot substitute for field evidence.
+- 中英文 proposal 同步到 v1.17；新增 `A-RESOURCE-001` 与 `A-PILOT-HANDOVER-001`，把资源级别和试点交接的真实性边界写入结构化假设。
+  Synchronized the bilingual proposals to v1.17 and added `A-RESOURCE-001` and `A-PILOT-HANDOVER-001` so resource-class and pilot-handover truth boundaries are machine-readable.
+
 ## v1.16 - 2026-08-17
 
 - 将三核“验—转—用”和 G0—G3 放行门同步到双语离线展陈，四份 A3/A0 图纸统一标注 v1.16。
