@@ -9,7 +9,7 @@ license: "COMMUNITY-DISPLAY-ONLY"
 summary: "Using the Jing-Zhang railway heritage public realm as the spine, the proposal organizes the three hubs and two wings into a verifiable, human-takeover-ready and reversible urban AI proving belt; every scenario delivers a spatial carrier, an ordinary-service path, a measurement method and a public receipt."
 tracks: ["ai-traffic-walkability", "enterprise-services-ecosystem", "civic-agent-governance"]
 scenarios: ["ai-traffic-walkability", "enterprise-service-copilot", "public-safety-operations-review"]
-iteration: "v1.17"
+iteration: "v1.18"
 ---
 
 # Jing-Zhang Intelli-Rail: Centennial Jing-Zhang AI Innovation Belt Urban Design
@@ -104,7 +104,7 @@ The three areas share booking, Civic Data Placards, risk classification, appeals
 
 ## AI Innovation Ecosystem, Personas, and AI+ Scenarios
 
-Six core personas test space and governance: open-source developers, start-up teams, researchers, enterprises and international visitors, surrounding residents, and city operators. Residents, older people, disabled people, caregivers and users with low digital access receive direct feedback channels capable of vetoing high-risk expansion in public-scenario tests. [source:AGENT-TASKBOOK]
+Six core personas test space and governance: open-source developers, start-up teams, researchers, enterprises and international visitors, surrounding residents, and city operators. Residents, older people, disabled people, caregivers and users with low digital access receive direct feedback channels capable of vetoing high-risk expansion in public-scenario tests. ; access to ordinary services must not require an account, consent to model training, or public disclosure of identity. Co-design and dispute-closure rules: public co-design contract.[source:AGENT-TASKBOOK]
 
 All twelve scenarios use one “verification contract”: **measured object, ordinary path, human takeover, comparison method, stage gate, stop condition**. Missing any one item blocks entry. Prototype stage tests usability and risk boundaries only; pilot stage compares baseline/control and records takeover; expansion stage is the first point at which cross-site replication is discussed. [data:geometry/public_space.geojson#PUBLIC-001]
 
@@ -140,6 +140,8 @@ Originality is not measured by deploying more AI. The proposal’s increment is 
 | Pilots scale by elapsed time or visibility | Expansion requires G3 evidence: baseline, comparison, failure record and public benefit | “The pilot is running” without comparison evidence cannot advance | G3 + B01–B05 |
 | AI infrastructure is treated as permanent urban base | Permanent urban base is separated from a removable AI sideband | If movement, signs, counters or accessibility fail after equipment removal, the design falls back | Three-hub permanent base + AI-off day |
 
+S04 planning-increment falsification contract: S04 planning-increment test. AI proposes candidates only and does not certify statutory compliance.
+
 ## Land Use, Building Scale, and Retain-Renovate-Demolish Strategy
 
 Conceptual land use completely covers the provisional overall design area; classification expresses functional relationships and has no statutory approval effect. [standard:MNR-LAND-USE-CLASSIFICATION-GUIDE] The current provisional area is approximately 11.41 km² [metric:site_area_sqm], green ratio approximately 12.34% [metric:green_ratio], public-space ratio approximately 7.33% [metric:public_space_ratio], and conceptual building footprint approximately 310,800 m² [metric:building_footprint_area_sqm]. Exact decimals serve package consistency only and do not imply survey precision.
@@ -166,6 +168,8 @@ Public space follows “quiet everyday use first, graded entry for events.” Th
 
 ## Renewal Projects, Implementation Policy, and Phasing
 
+This section links phases, responsible actors and release evidence through measurable indicators. During start-up, the proposed scene operator records discontinuity counts, service processing duration and user feedback, while the professional review role assesses them using consistent definitions. Pilots compare ordinary and AI-enabled paths and retain failures, missing-data records and human-takeover logs. Each indicator must state its definition, unit, sampling window, missing-data rule, recording responsibility, review responsibility and evidence location. Unconfirmed responsible actors remain pending and are not represented as having performed their duties. Expansion is prohibited where monitoring records are absent or high-risk feedback remains unresolved. At this stage, only measurement methods and delivery responsibilities are specified. All measured pilot values remain null until authorization and field measurement; simulations, planned quantities and resource classes cannot substitute for evidence of outcomes. The following contracts and index are written into this implementation section; no separate illegal directory is created.
+
 Ten renewal projects remain the implementation skeleton: JZ-01 heritage-spine continuity, JZ-02 Fifth Ring walking/cycling stitching, JZ-03 Qinghe innovation waterfront, JZ-04 Origin technology-transfer street, JZ-05 Dazhongsi four-quadrant connection, JZ-06 three-hub shared service stations, JZ-07 low-carbon compute stops, JZ-08 all-age accessible loop, JZ-09 open scenario-node network, and JZ-10 Centennial Jing-Zhang Digital Archive. [data:geometry/phasing.geojson#PHASE-001]
 
 Implementation uses four release gates. If any gate is not passed, the phase remains HOLD and does not advance merely because calendar time has elapsed; “pass” must correspond to a set of deliverable evidence and an explicit review responsibility, not a principle statement.
@@ -177,7 +181,7 @@ Implementation uses four release gates. If any gate is not passed, the phase rem
 | G2 Safety and Inclusion Gate | Human-takeover drill, accessibility co-test, Civic Data Placard, privacy/appeal check | Professional Committee + affected users | Pause, repair and co-test again; unresolved high-risk issues block expansion |
 | G3 Evidence Gate | Baseline, comparison, takeover/complaint record, same-task energy/resource record, public-benefit statement | Independent Audit + Joint Council | Hold scale, reduce, or exit; “a pilot is running” does not substitute for outcome evidence |
 
-Together the four gates establish the order: data permits a trial, ordinary service provides the floor, safety and inclusion make takeover possible, and sufficient evidence is required before expansion. [depth:phasing_implementation]
+Together the four gates establish the order: data permits a trial, ordinary service provides the floor, safety and inclusion make takeover possible, and sufficient evidence is required before expansion.  Co-design and dispute handling: public co-design contract. Authorization and evidence-access register: authorization register. Minority inaccessibility or high-risk issues must not be offset by aggregate completion rates. [depth:phasing_implementation]
 
 ### Six Hundred-Day Deliverables: Scale–Resource–Evidence Contract
 
@@ -192,6 +196,11 @@ To avoid project names without implementation magnitude, all six start-up delive
 | First S02 red-team day | One contained/isolated rehearsal with no live public-operation connection | R0 | G2 | Version, test set, takeover, failure and stop records | Isolation/takeover failure terminates the test and triggers review |
 | First Civic Data Placard specification | One common field set covering scenarios preparing to enter pilot | R0 | G2 | Collection, purpose, retention, appeal, deletion and accountable-role register | Any unverifiable required field blocks launch |
 
+
+### Delivery responsibility and evidence register
+
+Each of the six start-up deliverables receives a record stating its name, associated scene or baseline, indicator definition, recording role, review role, confirmation status, evidence location and failure action. Execution roles not specified in the existing table are proposed roles and must be confirmed and named by an authorized actor before the relevant activity starts. Until confirmed, responsible-actor and signature records remain null; role labels are not commitments to cooperate. Activities involving field collection or operation remain on HOLD before authorization and responsibility confirmation; this does not replace research and desk validation permitted under G0. A baseline record is not evidence of benefit. G3 continues to require the existing comparison, retained failures and independent review. See the delivery and indicator contract.
+
 ### First-Pilot Data Handover Format
 
 When a concept verification moves into professional review, every pilot must hand over the same minimum data package so a later team receives measurement logic rather than only a conclusion. Required fields are: `scenario_id`, `site_status`, `baseline_metric`, `comparison_method`, `unit`, `sampling_window`, `missing_data_rule`, `human_takeover_log`, `complaint_log`, `review_role`, `evidence_uri`, `gate_decision`, and `stop_reason`. Real values remain null before authorization and field measurement; simulated values may not substitute for missing field evidence. A pilot can enter G3 judgment only when **raw records are traceable, the ordinary path has a comparison, failed runs are retained, and the review role is named**. [depth:phasing_implementation]
@@ -199,6 +208,25 @@ When a concept verification moves into professional review, every pilot must han
 The start-up “six things in one hundred days” remains: spine-break register, first Origin transfer-street prototype, shared-service counter, accessible co-test route, first S02 red-team day, and first Civic Data Placard specification. Months 0–18 focus on measurement and reversible trials; 18–48 months enter adaptive reuse and transport renewal; only after 48 months does the proposal discuss networked governance and projects requiring stronger formal conditions.
 
 Long-term operations use a four-layer structure: Joint Council–Professional Committee–Community Observatory–Independent Audit. The annual rhythm is spring open-source maintenance week, summer sandbox open day, autumn Global AI Week, and winter public-value audit; every event must produce a problem list, trial record, public result, and next-round expand/exit decision. The conversion path is fixed as **public problem → open-source/enterprise response → sandbox verification → professional and community review → procurement/cooperation recommendation or exit → public postmortem**. Procurement, investment attraction, funding and cooperation remain subject to future lawful confirmation by responsible parties. [source:AGENT-TASKBOOK]
+
+
+### v1.18 Evidence Contracts (method definitions, not pilot results)
+
+This subsection consolidates delivery indicators, public co-design, the S04 planning-increment falsification contract, the authorization register and the evidence-status index. All items are method or blank-register definitions. Measured values, actual actors, signatures, raw-evidence locations and gate decisions remain null until authorization and field measurement.
+
+**M01 Discontinuity count:** professionally verified, issue-ID-deduplicated walking discontinuities within a declared survey scope and sampling window (unit: locations). Unsurveyed areas are listed separately, not recorded as zero. Proposed recorder: survey recorder; reviewer: transport professional. Links: S04 / B01.
+
+**M02 Service processing duration:** elapsed minutes from confirmed submission of a service request to completion. Ordinary and AI paths must share task classification and start/end definitions. Incomplete, abandoned and missing observations are retained separately. Proposed recorder: counter operator; reviewer: professional review role. Links: S07.
+
+**M03 Route completion proportion:** completed attempts at a predefined route task divided by valid attempts that actually started with informed agreement. Report AI, paper-map and human-assisted paths separately. Zero denominator → null. Proposed recorder: co-test recorder; joint reviewers: user representative and accessibility review role. Links: S05 / B02.
+
+**Public co-design:** a proposed community liaison collects issues online and offline. Residents, older people, disabled people, child caregivers and people with limited digital skills may help define tasks, test ordinary paths and retest repairs. Ordinary-service access must not require an account, consent to model training or public identity disclosure. Minority inaccessibility or high-risk issues must not be offset by aggregate completion; the scene remains on HOLD until affected-user retest and G2 review.
+
+**S04 planning-increment falsification:** AI only proposes discontinuity candidates, risk flags and explanations; it does not certify statutory compliance. Inputs record source/authorization/version; outputs record model version/candidate issue ID/rationale/uncertainty; professionals separately record accept/modify/reject. Comparisons with ordinary professional workflows require the same pre-registered task scope. Without a verifiable increment, or where new safety risks arise, AI use alone cannot justify expansion. No test results are currently claimed.
+
+**Authorization blocking conditions:** before a pilot, record authorizing actor and basis, operator, purpose/necessity, collection scope, retention period, deletion triggers, evidence-access permissions, complaint channel, human-takeover role and review confirmation. Missing necessary items block collection or operation. The public index holds only de-identified summaries; raw records stay controlled. A role label without a named authorized appointment does not satisfy G3.
+
+**Evidence-status index:** delivery contracts = methods written / measured values null; co-design = process proposed / recruitment not claimed; S04 = method written / no test results; authorization = template written / authorization null. Proposal commitments, contract tests, authorization to start, field records and gate decisions are not interchangeable.
 
 ## Metrics, Area Recalculation, and Compliance Matrix
 
@@ -225,6 +253,8 @@ The primary data risk remains provisional geometry and missing formal control co
 AI risks are governed in four layers: data minimization, purpose limitation, retention and consent withdrawal; model scope and error disclosure; operational human takeover, graceful degradation, emergency stop and ordinary service; and fairness testing across age, ability, language and digital access. High-risk public decisions are not automated, and every service provides a non-digital alternative and appeal channel.
 
 The proposal, bilingual figures, HTML and PDFs are submission outputs; global cases are cited for public mechanisms only and no third-party case images are copied. The visual pages remain offline and load no remote scripts, map tiles, fonts, iframes, forms or trackers. The license remains `COMMUNITY-DISPLAY-ONLY`, and every concrete implementation requires review by relevant professional teams, rights holders and competent authorities. [source:OPEN-CALL-SKILL]
+
+Pre-pilot authorization, retention, deletion verification and evidence-access fields: authorization register.
 
 ## References
 

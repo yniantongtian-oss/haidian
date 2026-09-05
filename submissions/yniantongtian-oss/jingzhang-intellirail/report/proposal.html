@@ -51,6 +51,12 @@ code {
   padding: 0.1em 0.35em;
   border-radius: 4px;
 }
+:not(pre) > code {
+  display: inline-block;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
 .summary { color: var(--muted); font-size: 17px; }
 .translation-link a { color: var(--accent); font-weight: 700; }
 .proposal-table { margin: 20px 0 26px; overflow-x: auto; }
@@ -155,12 +161,15 @@ code {
 <p>三区共享预约、公共数据卡、风险分级、申诉和退出机制，同时保留不同空间原型。每个重点区至少设置一个“AI关闭日”桌面演练，验证普通服务能否独立运行。<sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="three_key_area_detailed_design" title="深度：three_key_area_detailed_design">深度</sup></p>
 <figure class="proposal-figure"><img src="../assets/figures/key-areas.png" alt="三处重点片区的差异化设计"><figcaption>三处重点片区的差异化设计</figcaption></figure>
 <h2>AI 创新生态、人才画像与 AI+ 场景</h2>
-<p>六类核心人物用于测试空间和治理：开源开发者、初创团队、科研人员、企业及国际访客、周边居民、城市运维人员。居民、老年人、残障人士、儿童照护者和低数字能力使用者在公共场景测试中拥有直接否决高风险扩点的反馈入口。<sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="AGENT-TASKBOOK" title="来源：AGENT-TASKBOOK">来源</sup></p>
+<p>六类核心人物用于测试空间和治理：开源开发者、初创团队、科研人员、企业及国际访客、周边居民、城市运维人员。居民、老年人、残障人士、儿童照护者和低数字能力使用者在公共场景测试中拥有直接否决高风险扩点的反馈入口；不得以账号、同意模型训练或公开个人身份作为获得普通服务的条件，共设计与异议关闭规则见 公共共设计合同。<sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="AGENT-TASKBOOK" title="来源：AGENT-TASKBOOK">来源</sup></p>
 <p>十二个场景采用同一“验证合同”：<strong>测量对象、普通路径、人工接管、对照方式、阶段门、停止条件</strong>六项缺一不可。原型期只验证可用性和风险边界，试点期比较基线/对照并记录接管，推广期才讨论跨点复制。<sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/public_space.geojson#PUBLIC-001" title="空间数据：geometry/public_space.geojson#PUBLIC-001">空间数据</sup></p>
 <div class="proposal-table"><table><thead><tr><th>场景</th><th>测量与对照</th><th>人工接管 / 普通路径</th><th>阶段门与停止条件</th></tr></thead><tbody><tr><td>S01 开源发布厅</td><td>统计授权发布、纠错与复用；与人工发布流程对照</td><td>权利审核员签字；保留人工提交</td><td>权属不清即退回，不进入公开发布</td></tr><tr><td>S02 可信AI沙盒</td><td>红队覆盖、接管时长、结果公开；版本前后对照</td><td>安全员持急停；未接入公共运行</td><td>隔离失效、数据越界或接管失败立即暂停</td></tr><tr><td>S03 端侧算力驿站</td><td>同任务能耗/时延对照</td><td>运维人员可切回普通算力入口</td><td>无可复核节能收益则不扩点</td></tr><tr><td>S04 慢行断点诊断</td><td>首次全线断点清单 + 修复前后复测</td><td>交通专业人员现场确认；保留普通导视</td><td>新增安全风险或误报持续即下线建议</td></tr><tr><td>S05 无障碍伴行</td><td>路线完成、断点、求助；AI/纸图/人工三路径对照</td><td>用户可随时关闭，转纸图或人工陪同</td><td>新增不可达断点、定位漂移或投诉未处理即暂停</td></tr><tr><td>S06 清河低碳廊</td><td>热舒适、雨后恢复、活动使用前后对照</td><td>工程人员现场复核；保留普通公园设施</td><td>防洪、生态或舒适度恶化即回退</td></tr><tr><td>S07 成果转化街</td><td>服务办理时长、转介成功与纠错；人工窗口作基线</td><td>顾问签字；企业可完全走人工流程</td><td>泄露商业敏感信息或误导持续即停用</td></tr><tr><td>S08 人才生活管家</td><td>服务完成、申诉、关闭率；数字/线下渠道并行</td><td>街道或服务人员接管；保留线下柜台</td><td>隐性排序、画像出售或线下渠道缩水即停</td></tr><tr><td>S09 智能终端体验街</td><td>体验完成、退订、适老反馈；普通试用作对照</td><td>店员/消费者组织复核；允许无账号试用</td><td>未成年人保护或明示同意失效即撤场</td></tr><tr><td>S10 数据合规会客厅</td><td>解释纠错率、申诉完成；人工法律说明作基线</td><td>法律与安全双复核；保留人工咨询</td><td>原始个人数据交易或误导性结论即停</td></tr><tr><td>S11 京张记忆线路</td><td>节点使用、纠错、授权撤回；纸质史实卡并行</td><td>文史人员审校；保留无设备路线</td><td>史料存疑未标注或授权撤回未执行即下线</td></tr><tr><td>S12 全球AI活动周路线</td><td>活动通行、投诉、撤场恢复；活动前后公共性对照</td><td>联合运营理事会现场值守；保留普通城市通行</td><td>活动挤占基本通行、噪声或安全越界即缩场</td></tr></tbody></table></div>
-<p>三类产业测试沙盒对应三种证据：T1可信出行记录接管与失效；T2普惠服务比较数字与非数字等价性；T3低碳算力用同任务能耗对照验证收益。每次试验同时发布成功、失败、偏差和停止记录，失败记录保留在年度审计中。<sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="ai_scenarios_testbeds" title="深度：ai_scenarios_testbeds">深度</sup></p>
+<p>S04 的规划增量证伪合同（输入版本—建议—现场判定—采纳/驳回）见 S04 规划增量证伪合同。AI 只提出候选，不自动认定法定达标。 三类产业测试沙盒对应三种证据：T1可信出行记录接管与失效；T2普惠服务比较数字与非数字等价性；T3低碳算力用同任务能耗对照验证收益。每次试验同时发布成功、失败、偏差和停止记录，失败记录保留在年度审计中。<sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="ai_scenarios_testbeds" title="深度：ai_scenarios_testbeds">深度</sup></p>
 <p>公共空间组件库包含六个可转用部件：双轨里程标、公共数据卡牌、人工接管按钮/柜台、可撤端侧设备箱、无障碍多模态提示点、可拆遮阳与活动平台。每个部件都要有普通模式、维护责任和撤除方式；组件可以跨三核复用，内容与场景权限按地点单独配置。</p>
 <p>三个原创机制保持全案一致：<strong>场景退出阀</strong>执行“阈值—暂停—复盘—退出”；<strong>公共数据卡</strong>公开采集、用途、期限和申诉入口；<strong>双轨识别系统</strong>把遗产工程理性与开放生态贯穿物理和数字触点。三个机制共同形成可识别、可审计、可撤回的城市AI体验。</p>
+<h3>原创增量定位：把“AI园区”变成可验收的城市插件系统</h3>
+<p>本方案不以“部署更多AI”作为原创性判断，而以<strong>能否被证伪、被人工接管、被完整撤除</strong>作为增量。下表只比较方法差异，不宣称世界首创，也不把案例经验当作本地事实。</p>
+<div class="proposal-table"><table><thead><tr><th>常见做法</th><th>京张智轨的增量</th><th>可证伪测试</th><th>包内证据</th></tr></thead><tbody><tr><td>AI场景以功能清单交付</td><td>每个场景同时绑定普通服务、人工接管与退出阀</td><td>AI关闭日后普通服务不能独立工作即判失败</td><td>S01–S12验证合同 + G1/G2</td></tr><tr><td>数据治理停留在隐私说明</td><td>每个公共AI触点先交公共数据卡，再允许运行</td><td>采集目的、期限、申诉或删除任一不可核验即HOLD</td><td>公共数据卡 + G2</td></tr><tr><td>试点按时间或曝光量扩张</td><td>以基线、对照、失败记录和公共收益通过G3后才扩点</td><td>“已经运行”但无对照证据时不得升级</td><td>G3 + B01–B05</td></tr><tr><td>AI基础设施被当作永久城市底盘</td><td>永久城市骨架与可撤AI侧带分离</td><td>AI设备撤除后通行、导视、柜台、无障碍任一失效即回退</td><td>三核永久骨架 + AI关闭日</td></tr></tbody></table></div>
 <h2>用地、建筑规模与拆改留方案</h2>
 <p>概念用地完整覆盖临时总体范围，分类用于表达功能关系，不具有法定审批效力。<sup class="evidence evidence-standard" data-evidence-kind="standard" data-evidence-value="MNR-LAND-USE-CLASSIFICATION-GUIDE" title="标准：MNR-LAND-USE-CLASSIFICATION-GUIDE">标准</sup> 当前临时范围面积约11.41平方公里 <sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="site_area_sqm" title="指标：site_area_sqm">指标</sup>，绿地比例约12.34% <sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="green_ratio" title="指标：green_ratio">指标</sup>，公共空间比例约7.33% <sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="public_space_ratio" title="指标：public_space_ratio">指标</sup>，设计建筑基底约31.08万平方米 <sup class="evidence evidence-metric" data-evidence-kind="metric" data-evidence-value="building_footprint_area_sqm" title="指标：building_footprint_area_sqm">指标</sup>；精确小数仅用于文件一致性复算，不表示测绘精度。</p>
 <p>建筑控制执行“先底线、后形态”：保留类核历史/结构/使用价值，修缮类改善安全与节能，适应性再利用类导入工坊、展览、社区服务与小企业空间，增补类等待控规、消防、交通和日照条件，待核类不作拆建判断。总建筑规模、容积率、高度、密度和退线继续保持待正式数据补齐。<sup class="evidence evidence-standard" data-evidence-kind="standard" data-evidence-value="MOHURD-CONTROL-DETAILED-PLANNING" title="标准：MOHURD-CONTROL-DETAILED-PLANNING">标准</sup></p>
@@ -174,12 +183,29 @@ code {
 <p>荣誉展示体系采用“贡献可追溯、失败也留档”的规则：开源维护、公共问题解决、无障碍改进和可信验证都可以进入年度记录；企业赞助不换取排他命名或公共数据权利。文化叙事把京张铁路工程史、中关村科研创业文化与开源/责任创新串成三条时间线，史料与口述内容逐项登记来源和授权。</p>
 <p>公共空间实行“安静日常优先、活动分级进入”。日常层保障树荫、座椅、饮水、厕所、运动和通勤；社区层容纳课堂、市集和小型展演；城市层承载开发者节和国际活动。活动规模增长必须同步增加噪声、安保、交通、无障碍与撤场约束。<sup class="evidence evidence-standard" data-evidence-kind="standard" data-evidence-value="MOHURD-URBAN-DESIGN-MEASURES" title="标准：MOHURD-URBAN-DESIGN-MEASURES">标准</sup></p>
 <h2>更新项目清单、实施政策与分期计划</h2>
+<p>本节以可衡量指标连接分期、责任主体与放行证据：启动期由拟承担场景运营的主体登记断点数量、服务办理时长和使用者反馈，专业复核角色按统一定义开展评估；试点期比较普通路径与AI路径，并保留失败、缺测和人工接管记录。每项指标须注明定义、单位、采样窗口、缺测规则、记录责任、复核责任与证据位置；责任主体尚未确认的，登记为待确认，不视为已经履职。监测记录未形成或高风险反馈未闭环时不得扩点。当前仅承诺测量方法与交付责任，所有试点实测值在获得授权并完成现场测量前保持 null，不以模拟结果、计划数量或资源类别替代成效。下列合同与索引写入本落地章节，不另建非法目录。</p>
 <p>十个更新项目继续作为实施骨架：JZ-01遗产主轴连续化、JZ-02北五环慢行缝合、JZ-03清河创新岸线、JZ-04原点成果转化街、JZ-05大钟寺四象限连接、JZ-06三核共享服务站、JZ-07低碳算力驿站、JZ-08全龄无障碍连续环、JZ-09开放场景节点网络、JZ-10百年京张数字档案馆。<sup class="evidence evidence-data" data-evidence-kind="data" data-evidence-value="geometry/phasing.geojson#PHASE-001" title="空间数据：geometry/phasing.geojson#PHASE-001">空间数据</sup></p>
 <p>实施采用四道放行门。任何一门未通过，阶段保持 HOLD，不因日历时间到期自动推进；“通过”必须对应一组可交付证据和明确的复核责任，而不是一句原则判断。</p>
 <div class="proposal-table"><table><thead><tr><th>放行门</th><th>扩展前必须存在的证据</th><th>建议复核角色</th><th>未通过时的动作</th></tr></thead><tbody><tr><td>G0 资料门</td><td>边界/权属/文保/工程资料缺口登记，临时约束与正式资料的替换触发条件</td><td>规划、文保及相应工程专业团队</td><td>只做研究、桌面验证和可逆原型，不进入不可逆工程</td></tr><tr><td>G1 普通服务门</td><td>AI关闭日记录、普通服务路径图、线下柜台/纸质导视/无设备通行核对单</td><td>场景运营方 + 社区观察团</td><td>先补普通服务；无法独立运行的AI插件不得上线</td></tr><tr><td>G2 安全与包容门</td><td>人工接管演练、无障碍共测、公共数据卡、隐私/申诉核对</td><td>专业委员会 + 受影响使用者</td><td>暂停场景，修复后重新共测；高风险问题未闭环不得扩点</td></tr><tr><td>G3 证据门</td><td>基线、对照、接管/投诉记录、同任务能耗或资源记录、公共收益说明</td><td>独立审计 + 联合理事会</td><td>维持原规模、缩点或退出，不用“试点已运行”替代成效证据</td></tr></tbody></table></div>
-<p>四门共同构成“资料允许试、普通服务兜底、安全包容可接管、证据足够才扩展”的顺序。<sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="phasing_implementation" title="深度：phasing_implementation">深度</sup></p>
+<p>四门共同构成“资料允许试、普通服务兜底、安全包容可接管、证据足够才扩展”的顺序。共设计与异议处置合同见 公共共设计合同；授权与证据访问登记见 授权登记模板。少数使用者的不可达或高风险问题不得被总体完成比例抵消。<sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="phasing_implementation" title="深度：phasing_implementation">深度</sup></p>
+<h3>百日六件事：规模—资源—证据合同</h3>
+<p>为避免“有项目名、无实施量级”，百日六件事全部给出<strong>当前可承诺的最小规模</strong>与<strong>资源类别</strong>。资源类别只用于采购准备，不是工程概算或资金承诺：R0=文档/踏勘/活动级，R1=轻量设备或可逆内装级，R2=局部街道/公共界面改造级；任何R2动作都必须在正式权属、交通、消防和工程条件核实后再询价，至少以多方报价形成可审计采购依据。[assumption:A-RESOURCE-001]</p>
+<div class="proposal-table"><table><thead><tr><th>百日交付</th><th>最小规模边界</th><th>资源类别</th><th>首道放行门</th><th>百日末可核验回执</th><th>失败动作</th></tr></thead><tbody><tr><td>主轴断点清单</td><td>覆盖遗产主轴的首次全线踏勘；不承诺新建工程</td><td>R0</td><td>G0</td><td>带坐标/类型/风险级的断点登记与复测规则</td><td>资料不足则保留缺口，不用推断值补齐</td></tr><tr><td>原点转化街首段原型</td><td>一个可逆街道/首层界面段，不预设法定长度</td><td>R1→R2</td><td>G0/G1</td><td>普通服务路径、可撤构件清单、使用者复测记录</td><td>普通路径不成立则撤回原型</td></tr><tr><td>共享服务柜台</td><td>一处先行柜台，验证人工与数字双路径</td><td>R1</td><td>G1</td><td>AI关闭日记录、纸质/人工办理核对单</td><td>人工路径不可独立工作则不扩点</td></tr><tr><td>无障碍共测路线</td><td>一条连续共测路线，不以临时几何声称法定达标</td><td>R0→R1</td><td>G1/G2</td><td>不可达点、求助点、复测结果和整改责任</td><td>新增不可达点则对应场景HOLD</td></tr><tr><td>S02首期红队日</td><td>一次封闭/隔离环境演练，不连接真实公共运行</td><td>R0</td><td>G2</td><td>版本、测试集、接管、失败与停止记录</td><td>隔离/接管失败立即终止并复盘</td></tr><tr><td>公共数据卡第一版</td><td>一套统一字段，并覆盖准备进入试点的场景</td><td>R0</td><td>G2</td><td>采集、用途、保留期、申诉、删除与责任角色清单</td><td>任一必填项不可核验则该场景不上线</td></tr></tbody></table></div>
+<h3>交付责任与证据登记</h3>
+<p>百日六件事逐项附交付记录：交付名称、关联场景或基线、指标定义、记录角色、复核角色、确认状态、证据位置、未通过动作。原表未明确的执行角色均为拟议角色，须在相关活动启动前由有权主体确认并具名；尚未确认时，责任主体和签署记录保持 null，不把角色名称当作合作承诺。涉及现场采集或运行的活动在授权和责任确认前保持 HOLD；G0 允许的研究与桌面验证不受此替代。基线记录本身不代表成效，进入 G3 仍须满足既有对照、失败留存和独立复核要求。完整定义见 交付与指标合同。</p>
+<h3>首轮试点数据交接格式</h3>
+<p>从“概念验证”进入“专业复核”时，任何试点必须交出同一份最小数据包，避免后续团队只拿到结论、拿不到测量口径。字段固定为：<code>scenario_id</code>、<code>site_status</code>、<code>baseline_metric</code>、<code>comparison_method</code>、<code>unit</code>、<code>sampling_window</code>、<code>missing_data_rule</code>、<code>human_takeover_log</code>、<code>complaint_log</code>、<code>review_role</code>、<code>evidence_uri</code>、<code>gate_decision</code>、<code>stop_reason</code>。真实值在授权和实测前保持空值；空值不能用模拟值替代。一次试点只有在<strong>原始记录可追溯、普通路径有对照、失败记录未删除、复核角色具名</strong>四项同时成立时，才允许进入G3判断。<sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="phasing_implementation" title="深度：phasing_implementation">深度</sup></p>
 <p>启动期“百日六件事”保留：主轴断点清单、原点转化街首段原型、共享服务柜台、无障碍共测路线、S02首期红队日、公共数据卡第一版。0—18个月以测量和可逆验证为主；18—48个月进入建筑再利用与交通更新；48个月以后才讨论网络化治理和需更强正式条件的工程。</p>
 <p>长期运营采用“联合理事会—专业委员会—社区观察团—独立审计”四层结构。年度节奏为春季开源维护周、夏季沙盒开放日、秋季全球AI活动周、冬季公共价值审计；每次活动都要产生问题清单、试验记录、公开结果和下一轮扩点/退出决定。转化路径固定为：<strong>公开问题 → 开源/企业响应 → 沙盒验证 → 专业与社区复核 → 采购/合作建议或退出 → 公开复盘</strong>。任何采购、招商、资金和合作仍需未来主体依法确认。<sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="AGENT-TASKBOOK" title="来源：AGENT-TASKBOOK">来源</sup></p>
+<h3>v1.18 证据合同（方法定义，非试点结果）</h3>
+<p>本小节合并交付指标、公共共设计、S04 规划增量证伪、授权登记与证据索引。所有内容均为方法或空白登记定义；实测值、实际主体、签署、原始证据位置与门禁决定在授权和现场测量前保持 null。</p>
+<p><strong>M01 断点数量</strong>：已声明踏勘范围与采样窗口内、经专业现场复核并按固定问题 ID 去重的慢行断点数（处）；未踏勘范围另列，不记为零。拟由踏勘记录员记录，交通专业复核角色确认。关联 S04 / B01。</p>
+<p><strong>M02 服务办理时长</strong>：从使用者确认提交同一类服务请求至完成服务的经过时间（分钟）；普通与 AI 路径须同任务分类与起止定义。未完成、放弃和缺测分别保留。拟由柜台运营角色记录，专业复核角色检查。关联 S07。</p>
+<p><strong>M03 路线完成比例</strong>：明确同意并实际开始的有效尝试中，完成预定义路线任务的尝试数 ÷ 有效尝试总数；AI / 纸图 / 人工分别统计。分母为零则为 null。拟由共测记录员记录，使用者代表与无障碍复核角色共同检查。关联 S05 / B02。</p>
+<p><strong>公共共设计</strong>：拟议社区联络角色通过线上线下入口征集问题；居民、老年人、残障人士、儿童照护者与低数字能力使用者可参与任务定义、普通路径测试与复测。不得以账号、同意模型训练或公开身份作为获得普通服务的条件。少数不可达或高风险问题不得被总体完成比例抵消；相关场景 HOLD 至受影响使用者复测与 G2 复核。</p>
+<p><strong>S04 规划增量证伪</strong>：AI 只提出断点候选、风险提示与解释，不自动认定法定达标。输入登记来源/授权/版本；输出登记模型版本/候选问题 ID/依据/不确定性；专业人员另行记录采纳、修改或驳回。比较 AI 辅助与普通专业流程时，事前登记同一任务范围。未显示可复核增量或出现新安全风险时，不以“使用了 AI”扩点。当前无测试结果。</p>
+<p><strong>授权登记阻断条件</strong>：进入试点前须具备有权授权主体依据、运营责任主体、用途与必要性、采集范围、保留期限、删除触发、证据访问权限、申诉入口、人工接管角色与复核确认；任一必要项缺失则不得启动采集或运行。公开索引仅含去标识摘要；原始记录按受控规则复核。只有角色名称而无具名授权记录，不满足 G3。</p>
+<p><strong>证据索引状态</strong>：上列合同 = 方法已写 / 实测 null；共设计 = 流程拟议 / 未声称已招募；S04 = 方法已写 / 无测试结果；授权 = 模板已写 / 授权 null。正文承诺、合同检验、授权启动、现场记录与门禁决定五者不可互相替代。</p>
 <h2>指标体系、面积复算与合规矩阵</h2>
 <p>指标分为空间可复算、等待正式资料的控制指标、实施后观测的运营指标三类，不混写。空间指标继续从提交几何在既定投影下复算；容积率等控制指标保持未知；运营指标先发布测量方法和基线，再讨论目标。<sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="metrics_recalculation" title="深度：metrics_recalculation">深度</sup></p>
 <h3>第一年基线测量方案</h3>
@@ -188,7 +214,7 @@ code {
 <figure class="proposal-figure"><img src="../assets/figures/metrics-evidence.png" alt="指标、图层与四门自检证据链"><figcaption>指标、图层与四门自检证据链</figcaption></figure>
 <h2>风险、版权与合规说明</h2>
 <p>首要数据风险来自临时边界和正式控制条件缺失；官方多边形到位后整包复算。控规、权属、文保、市政、消防和交通条件不足时，建筑规模和工程结论继续保持待核。<sup class="evidence evidence-depth" data-evidence-kind="depth" data-evidence-value="risk_missing_data" title="深度：risk_missing_data">深度</sup></p>
-<p>AI风险按数据、模型、运行、公平四层管理：数据最小化、用途限定、删除期限和授权撤回；模型公开适用范围与误差；运行提供人工接管、故障降级、急停和普通服务；公平测试覆盖年龄、能力、语言与数字能力差异。高风险公共决定不交由模型自动完成，任何服务都提供非数字替代和申诉渠道。</p>
+<p>AI风险按数据、模型、运行、公平四层管理：数据最小化、用途限定、删除期限和授权撤回；模型公开适用范围与误差；运行提供人工接管、故障降级、急停和普通服务；公平测试覆盖年龄、能力、语言与数字能力差异。高风险公共决定不交由模型自动完成，任何服务都提供非数字替代和申诉渠道。进入试点前的授权、保留期、删除核验与证据访问字段见 授权登记模板。</p>
 <p>正文、双语图件、HTML和PDF为本提交成果；全球案例只引用机制性公开信息，不复制第三方图片。visual 页面保持离线，不加载远程脚本、地图瓦片、字体、iframe、表单或追踪代码。许可继续为 <code>COMMUNITY-DISPLAY-ONLY</code>，所有具体实施需由相应专业团队、权利主体和主管部门复核。<sup class="evidence evidence-source" data-evidence-kind="source" data-evidence-value="OPEN-CALL-SKILL" title="来源：OPEN-CALL-SKILL">来源</sup></p>
 <h2>参考资料</h2>
 <ul>

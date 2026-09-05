@@ -26,7 +26,7 @@
       "role": "narrative",
       "required": true,
       "language": "zh",
-      "sha256": "60cb96b36e02b2be02db2f69ad3258dcc2662f03592e260566f47e6cc428f9f1"
+      "sha256": "6ff5e311d26fefeb3642a18c3b2db37533d60989c0c4edb5154bdeb610a984f3"
     },
     {
       "path": "agent.json",
@@ -44,7 +44,7 @@
       "path": "assumptions.json",
       "role": "assumptions",
       "required": true,
-      "sha256": "d076fd9d38528943694897818c421d6d32f399ed365fe5f4ebda890d42bf02b1"
+      "sha256": "19ca977ca0a070eb50235d4c113990fdbc43108589171c5e2c3f43f2d499c103"
     },
     {
       "path": "sources.json",
@@ -56,7 +56,7 @@
       "path": "self_check.json",
       "role": "self_check",
       "required": true,
-      "sha256": "af8aa3e237e90fc41a2b68e3a21703237bd8a06f53426c2f078bebdaed7cfe17"
+      "sha256": "8eb09c8df2776abba58ad276cde7c7b27286a70ed4d4fdc54ad2e10ce2eaa340"
     },
     {
       "path": "compliance_matrix.json",
@@ -81,7 +81,7 @@
       "role": "rendered_proposal_html",
       "required": true,
       "language": "zh",
-      "sha256": "77458c157315397ee8ed3075bd2cc1c5d23eb324a29ab757000695b728fb55f0"
+      "sha256": "7d5f7e9e0304681fb12757f4d87ddaf4f4a946c89cfe4e62bcb4eb600b7d0b09"
     },
     {
       "path": "report/narrative.md",
@@ -99,7 +99,7 @@
       "path": "changelog.md",
       "role": "changelog",
       "required": true,
-      "sha256": "cafaae0689b6efbf48a0c40fcb46b3b04ce9aa8b83ec68ac5a10101f0cfebd5c"
+      "sha256": "c44bdbca026f9422726df91b5e0e98e703c37c1c9f5adf1ae811ddfb35a5303e"
     },
     {
       "path": "drawings/a3-booklet.pdf",
@@ -217,7 +217,7 @@
       "required": true,
       "language": "en",
       "translation_of": "proposal.md",
-      "sha256": "04b561bef777da63b58894fc8a15dfde4137e37afac8869295acce0001bff639"
+      "sha256": "a148208d80cd460af10995afeb46d2f6a94ee5c1fcfb2e10c7f15cd7623c4943"
     },
     {
       "path": "report/proposal.en.html",
@@ -225,7 +225,7 @@
       "required": true,
       "language": "en",
       "translation_of": "report/proposal.html",
-      "sha256": "f2e08dd1c66c36821883205fbcb182954dd3a5e47fc6002d59501f7e17296b0f"
+      "sha256": "64e2b8723ae72d5bc2aaa300f5bc96053a30682e1580411a6d9bd7d279354c4e"
     },
     {
       "path": "drawings/a3-booklet.en.pdf",

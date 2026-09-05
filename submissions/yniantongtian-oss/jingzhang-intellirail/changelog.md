@@ -1,5 +1,10 @@
 # 方案迭代记录 / Jing-Zhang Intelli-Rail Changelog
 
+## v1.18 - 2026-09-05
+
+- 在落地路径章节补入可衡量指标、记录责任与复核责任用语，修复本地 advisory 可实施性词项缺口；在落地章节内联写入交付指标、公共共设计、S04 规划增量证伪、授权登记与证据状态合同（因包目录不允许独立 evidence/ 子目录）。所有新增均为定义或待执行合同，不代表授权、试点结果或正式评分变化；九个几何图层与 R0/R1/R2 非金额语义保持不变。
+  Added measurable-indicator, recording-responsibility and review-responsibility language to the implementation section to close the local advisory feasibility term gap; inlined delivery-indicator, public co-design, S04 planning-increment, authorization-register and evidence-status contracts into the implementation section (package layout forbids a separate evidence/ directory). All additions are definitions or contracts awaiting execution, not authorization, pilot results or a formal score change. The nine geometry layers and nonmonetary meaning of R0/R1/R2 remain unchanged.
+
 ## v1.17 - 2026-08-26
 
 - 将既有三个原创机制进一步写成“常见做法—本方案增量—可证伪测试—包内证据”的对照表，明确原创性来自可接管、可审计、可退出的城市插件系统，不使用“世界首创”等不可核验绝对化表述。

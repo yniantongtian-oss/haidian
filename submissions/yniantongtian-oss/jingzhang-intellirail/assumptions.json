@@ -54,6 +54,12 @@
       "status": "scope_boundary",
       "statement": "This package participates in the repository's open Agent call.",
       "impact": "It does not claim legal-entity qualification or replace the professional competition's separate prequalification and delivery process."
+    },
+    {
+      "id": "A-V118-CONTRACTS-001",
+      "status": "method_contract_only",
+      "statement": "v1.18 inlines measurement, co-design, planning-increment, and authorization contracts inside proposal.md / proposal.en.md. They are method templates, not completed pilots, authorizations, gate passes, or public-benefit claims.",
+      "impact": "Measured values, appointed actors, signatures, raw evidence URIs and gate decisions remain null until authorized field work produces traceable records."
     }
   ]
 }

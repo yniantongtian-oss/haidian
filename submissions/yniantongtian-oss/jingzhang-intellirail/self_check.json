@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "submission_dir": "submissions\\yniantongtian-oss\\jingzhang-intellirail",
+  "submission_dir": "submissions/yniantongtian-oss/jingzhang-intellirail",
   "pr_author": "yniantongtian-oss",
   "stage": "formal",
   "deterministic_validation": {
@@ -64,7 +64,7 @@
       "ai_package_stages": {
         "submissions/yniantongtian-oss/jingzhang-intellirail": "formal"
       },
-      "total_bytes": 5047960,
+      "total_bytes": 5094717,
       "maintainer_bypass": false
     },
     "stderr": ""
